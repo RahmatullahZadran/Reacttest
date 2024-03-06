@@ -1,0 +1,20 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-image {
+    position: absolute;
+    top: -50px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px; /* Adjust width and height as needed */
+    height: 100px;
+    background-size: cover;
+    display: none;
+  }
+  
+  .tooltip-container:hover .tooltip-image {
+    display: block;
+  }
+  

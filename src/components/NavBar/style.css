@@ -1,0 +1,22 @@
+/* Styles for navbar-brand elements */
+.navbar-brand {
+  transform: scale(1); /* Initial scale */
+  transition: transform 0.3s ease; /* Smooth transition effect on transform property */
+}
+
+/* Increase scale on hover */
+.navbar-brand:hover {
+  transform: scale(1.1); 
+  /* show the tooltip */
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: fixed; /* Position fixed to keep it in the middle of the screen */
+}
+
+

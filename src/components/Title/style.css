@@ -1,0 +1,19 @@
+.title {
+  transform: scale(1);
+  width: 100%;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 0px;
+  background-color: black;
+  text-shadow: 0 0 10px #2A77AE, 0 0 20px #2A77AE, 0 0 30px #2A77AE, 0 0 40px #2A77AE;
+}
+
+.card {
+
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
